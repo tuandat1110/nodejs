@@ -30,7 +30,7 @@ function validateId(req, res, next) {
   next();
 }
 
-app.use(normalizeInput);
+//app.use(normalizeInput);
 
 mongoose
  .connect("mongodb+srv://20225278:20225278@cluster0.673kgmf.mongodb.net/IT4409")
